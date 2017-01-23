@@ -1,0 +1,19 @@
+{
+    "name": "premierssg/yii2-debug",
+    "description": "Yii 2 Debug extension that add duration column to index page",
+    "keywords": ["yii", "yii2", "debug", "ajax"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Yiu",
+            "email": "williamyiu@hotmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-debug": "*"
+    },
+    "autoload": {
+        "psr-4": { "premierssg\\yii2\\debug\\": "" }
+    }
+}
